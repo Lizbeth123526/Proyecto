@@ -1,0 +1,84 @@
+ body {
+            background: url('https://static.vecteezy.com/system/resources/previews/015/776/598/original/background-for-the-menu-of-restaurants-and-cafes-contour-vector.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Insaniburger', sans-serif;
+            text-align: center;
+        }
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(160, 116, 116);
+    border: 1px solid rgb(201, 166, 166);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid rgb(148, 107, 107);
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c7957e;
+    color: rgb(199, 59, 59);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #eeaa7c;
+}
+
+.plato {
+    border: 1px solid rgb(207, 74, 74);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plato img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1555b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
